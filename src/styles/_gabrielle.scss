@@ -1,0 +1,116 @@
+@import './helpers';
+
+#gabrielle-section{
+  background: #fff;
+  padding: 234px 0 256px 0;
+}
+
+.gabrielle-img-copy{
+  @include flex-row();
+}
+
+.gabrielle{
+  margin-left: 156px;
+  width: 48.5%;
+}
+
+.gabrielle-copy{
+  margin: 9px 16px 79px 156px;
+  max-width: 512px;
+}
+
+
+.gabrielle-copy-2{
+  margin: auto;
+  padding: 320px 0 294px 0;
+  width: 520px;
+}
+
+.gabrielle-copy-3-perfume{
+  @include flex-row();
+  justify-content: space-between;
+}
+
+.gabrielle-copy-3{
+  width: 41%;
+  margin: 0px 0 66px 155px;
+}
+
+.gabrielle-perfume{
+  width: 39.5%;
+  margin-left: auto;
+}
+
+// @media (max-width: 1280px){
+//   .gabrielle-copy {
+//     max-width: 30%;
+//     margin: 9px auto 79px auto;
+// }
+
+// .gabrielle{
+//   margin-left: 66px;
+// }
+// .gabrielle-copy-3{
+//   width: 46%;
+//   margin: 0px auto 66px auto;
+// }
+// }
+
+@media (max-width: 1280px){
+  .gabrielle-copy {
+    width: 35%;
+    margin: auto;
+}
+  .gabrielle-perfume{
+    width: 30%;
+  }
+  .gabrielle-copy-3{
+    width: 56%;
+    margin: auto;
+  }
+  .gabrielle{
+    margin-left: 66px;
+  }
+}
+
+@media (max-width: 768px) {
+  #gabrielle-section{
+    padding: 200px 0 210px 0;
+  }
+  
+  .gabrielle-img-copy{
+    flex-direction: column;
+  }
+  .gabrielle{
+    width: 93%;
+    margin: auto;
+  }
+  .gabrielle-copy{
+    margin: 54px auto;
+    width: 92%;
+  }
+  .gabrielle-copy-2{
+    margin: auto;
+    padding: 153px 0 0 0;
+    width: 94%;
+  }
+  .gabrielle-copy-3-perfume{
+    margin-top: 184px;
+    flex-direction: column-reverse;
+  }
+  .gabrielle-perfume{
+    width: 93%;
+    margin-left: auto;
+  }
+  .gabrielle-copy-3{
+    width: 93%;
+    margin: 190px auto 0 auto;
+  }
+}
+
+@media (max-width:480px){
+
+}
+
+
+

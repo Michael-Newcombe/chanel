@@ -1,0 +1,102 @@
+@import './helpers';
+
+#savoir-faire-section{
+  margin: 268px 0 0 42px;
+}
+
+.image-collage{
+ @include flex-row();
+}
+
+.img-1-2{
+  max-width: 29%;
+}
+
+.img-4-5{
+  width: 29%;
+  margin-top: 68px;
+}
+
+
+.img-1{
+  max-width: 100%;
+  margin-bottom: 18px;
+}
+
+.img-2{
+  max-width: 88%;
+  margin-left: auto;
+}
+
+.img-3{
+  width: 41%;
+  margin: 0 20px;
+}
+
+.img-4{
+  max-width: 56%;
+  margin-bottom: 18px;
+}
+
+.img-5{
+  max-width: 93%;
+  width: 502px;
+}
+
+
+.savoir-faire-copy{
+  width: 518px;
+  margin: 280px auto;
+}
+
+@media (max-width: 768px) {
+
+  #savoir-faire-section{
+    margin: 170px 0 68px 0;
+  }
+  
+  .image-collage{
+    flex-direction: column;
+   }
+
+   .img-1-2{
+    max-width: 100%;
+  }
+  
+  .img-4-5{
+    width: 100%;
+    margin-top: 45px;
+  }
+  
+  .img-1{
+    width: 100%;
+    margin-bottom: 18px;
+  }
+  
+  .img-2{
+    max-width: 52%;
+    margin: 50px auto 0 12px;
+  }
+  
+  .img-3{
+    width: 62%;
+    margin: 42px 12px 0 auto;
+  }
+  
+  .img-4{
+    margin-left: 12px;
+    max-width: 53%;
+  }
+  
+  .img-5{
+    max-width: 65%;
+    margin: 46px 0 0 auto;
+    padding-right: 12px;
+  }
+  
+  
+  .savoir-faire-copy{
+    width: 95%;
+    margin: 138px auto 0 auto;
+  }
+}

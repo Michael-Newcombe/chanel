@@ -1,0 +1,45 @@
+@import './nav';
+@import './introduction';
+@import './gabrielle';
+@import './iconic';
+@import './savoir-faire';
+@import './footer';
+@import './necklace';
+@import './animations';
+
+
+html,body{
+  margin: 0;
+  padding: 0;
+  background: #000;
+  overflow-x: hidden;
+	scroll-behavior: smooth;
+	@media (prefers-reduced-motion: reduce) {
+		scroll-behavior: auto;
+	}
+}
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+picture{
+  display: block;
+}
+
+img{
+  display: block;
+  width: 100%;
+}
+
+
+.opacity-animation, .scale-animation, .slide-in-animation{
+  opacity: 0;
+}
+
+
+

@@ -1,0 +1,38 @@
+.necklace-section{
+ 
+}
+
+.video-container{
+  width: 100%;
+  margin-bottom: 456px;
+  video{
+    width: 100%;
+    display: block;
+    object-fit: cover;
+  }
+}
+
+.necklace-copy{
+  max-width: 1060px;
+  margin: auto;
+  width: 90%;
+}
+
+@media(max-width: 768px){
+  .necklace-copy{
+    width: 92%;
+    margin: 238px auto 0 auto;
+  }
+  .video-container{
+    margin-bottom:0;
+    video{
+      height: 761px;
+    }
+  }
+  
+}
+
+@media (max-width: 1024px) {
+  .necklace-copy{
+  }
+}
